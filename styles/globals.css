@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.round{
+  border-radius: 100%;
+}
