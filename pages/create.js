@@ -1,7 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import Container from 'react-bootstrap/Container'; 
-import '../styles/generic.module.css'
+import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
  import {
         withScriptjs,
@@ -34,6 +33,8 @@ export default function home() {
     return (
       <>
         <head>
+          <title>Create your match</title>
+          <link href="../styles/generic.css" rel="stylesheet" />
           <script>{`var coordinades=null`}</script>
         </head>
         <Container className='bg-primary rounded' style={{
